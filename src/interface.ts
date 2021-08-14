@@ -11,7 +11,7 @@
 // that describe an object, but neither provides implementation
 // nor initialisation for them
 
-// 
+//
 
 // type AddFn = (a: number, b: number) => number;
 interface AddFn {
@@ -48,8 +48,10 @@ class Person1 implements Greetable {
 }
 
 let user01: Greetable;
-user01 = new Person1("Eric", "Engineer");
+user01 = new Person1('Eric', 'Engineer');
 
 user01.greet();
 
 console.log(user01);
+
+// what the fuck
